@@ -4,6 +4,7 @@ import Showcase from "@/components/sections/Showcase";
 import AIFeatures from "@/components/sections/AIFeatures";
 import TimelinePreview from "@/components/sections/TimelinePreview";
 import StoryGenerator from "@/components/sections/StoryGenerator";
+import Testimonials from "@/components/sections/Testimonials";
 import CTA from "@/components/sections/CTA";
 
 export default function Home() {
@@ -18,6 +19,7 @@ export default function Home() {
       <AIFeatures />
       <TimelinePreview />
       <StoryGenerator />
+      <Testimonials />
       <CTA />
     </main>
   );
