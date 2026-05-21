@@ -226,7 +226,10 @@ export default function AIFeatures() {
                   </Card>
 
                   {/* Day-by-Day Timeline Render */}
-                  <div className="space-y-4 max-h-[350px] overflow-y-auto pr-1">
+                  <div
+                    data-lenis-prevent
+                    className="space-y-4 max-h-[400px] overflow-y-auto pr-1"
+                  >
                     {generatedItinerary.plan.map((dayPlan) => (
                       <Card key={dayPlan.day} className="p-5 bg-white border-slate-200/50 shadow-sm">
                         <h4 className="font-display text-sm font-bold text-slate-800 mb-4 flex items-center gap-2">

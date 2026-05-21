@@ -193,7 +193,10 @@ export default function StoryGenerator() {
                   </div>
 
                   {/* Chapters Container */}
-                  <div className="p-8 space-y-8 max-h-[350px] overflow-y-auto pr-2 flex-1">
+                  <div
+                    data-lenis-prevent
+                    className="p-8 space-y-8 max-h-[350px] overflow-y-auto pr-2 flex-1"
+                  >
                     {generatedStory.chapters.map((chap, cIdx) => (
                       <div key={cIdx} className="space-y-3 relative pl-6 border-l border-slate-100">
                         {/* Chapter bullet */}

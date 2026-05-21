@@ -93,7 +93,7 @@ html.lenis {
 }
 
 .lenis-smooth [data-lenis-prevent] {
-  overflow: clip;
+  overscroll-behavior: contain;
 }
 
 .lenis-target {
