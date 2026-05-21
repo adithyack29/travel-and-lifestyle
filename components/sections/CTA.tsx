@@ -2,7 +2,7 @@
 
 import { motion } from "framer-motion";
 import Button from "@/components/ui/Button";
-import { ArrowRight, Compass, Globe, Heart, Share2, Mail } from "lucide-react";
+import { ArrowRight, Compass, Globe, Share2, Mail } from "lucide-react";
 
 export default function CTA() {
   const handleScrollToTop = () => {
@@ -119,9 +119,6 @@ export default function CTA() {
         {/* Copyright */}
         <div className="border-t border-slate-100 pt-8 flex flex-col sm:flex-row justify-between items-center gap-4 text-xs text-slate-400 font-semibold">
           <span>&copy; {new Date().getFullYear()} VoyageAI Inc. All rights reserved.</span>
-          <span className="flex items-center gap-1">
-            Made with <Heart className="w-3 h-3 text-red-500 fill-red-500" /> by Google Deepmind pair programmers
-          </span>
         </div>
 
       </div>

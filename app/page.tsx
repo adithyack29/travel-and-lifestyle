@@ -9,7 +9,7 @@ import CTA from "@/components/sections/CTA";
 
 export default function Home() {
   return (
-    <main className="min-h-screen bg-background relative selection:bg-brand-cyan/20 selection:text-slate-900">
+    <main className="min-h-screen bg-background relative selection:bg-brand-cyan/20 selection:text-slate-900 overflow-x-clip">
       {/* Sticky Header Navigation */}
       <Header />
 
